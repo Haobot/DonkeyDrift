@@ -85,4 +85,3 @@ python manage.py drive --model=./models/your_model_name
 ------
 
 Have fun!
-
