@@ -8,7 +8,7 @@ We have already modified several functions and locked tensorflow's version at te
 | Password：or89                                  |
 
 ## Clone this repository:
-```python
+```
 git clone https://github.com/Haobot/DonkeyDrift
 
 cd DonkeyDrift/
@@ -23,26 +23,26 @@ pip install -e .
 
 ## Create new instance:
 
-```python
+```
 donkey createcar ./mycar
 cd  mycar/
 ```
 
 ## Calibrate car:
 
-```python
+```
 donkey calibrate --channel = 0
 donkey calibrate --channel = 1
 ```
 
 ## Drive car:
 
-```python
+```
 python manage.py drive 
 ```
 
 ## Train Model on PC or Server:
-```python
+```
 python manage.py train --tub=./data/your_tub_name --model=./models/your_model_name
 ```
 
