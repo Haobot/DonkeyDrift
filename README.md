@@ -10,7 +10,7 @@ We have already modified the video capture algorithm and locked tensorflow's ver
 ## How to create a new car instance. 
 *  $donkey createcar ./mycar
 ## How to train my car.
-* $python manager.py train --tub=./data/your_tub_name --model=./models/your_model_name
+* $python manage.py train --tub=./data/your_tub_name --model=./models/your_model_name
 ## How to dirve my car.
 * $python manager.py drive 
 ## Have fun!
