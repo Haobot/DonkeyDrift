@@ -35,8 +35,8 @@ cd  mycar/
 ## 5. Calibrate car:
 
 ```
-donkey calibrate --channel = 0
-donkey calibrate --channel = 1
+donkey calibrate --channel 0
+donkey calibrate --channel 1
 ```
 
 ## 6. Drive car:
