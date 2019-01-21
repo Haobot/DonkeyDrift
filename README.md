@@ -1,6 +1,6 @@
 # DonkeyDrift
 This is a new project from Shanghai, China, which is originally based on DonkeyCar.
-We have already modified several functions and locked tensorflow's version at tensorflow-1.8.0 and cloned the donkeycar version with v2.5.1 branch.
+We have built an Arduino chassis with high performance, modified several configurations and chosen tensorflow version at 1.8.0 and donkeycar version at 2.5.1 of master branch.
 
 # Instruction
 
