@@ -56,7 +56,7 @@ python manage.py train --tub=./data/your_tub_name --model=./models/your_model_na
 donkey sim --model=./models/your_model_name --type=linear
 ```
 
-**P.S. Simulators are just works for Linux and MAC now, Windows version need to fix problems.**
+**P.S. Simulators just work well on Linux and MAC now, Windows version need fixing.**
 
 ## 9. Drive car with model for Auto Drive:
 
