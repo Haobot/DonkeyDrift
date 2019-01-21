@@ -5,7 +5,7 @@ We have already modified the video capture algorithm and locked tensorflow's ver
 * You can join us and give us some advices. 
 ## How to use it
 * clone the repository by:
-* git clone https://github.com/Mavengers/DonkeyDrift
+* git clone https://github.com/Haobot/DonkeyDrift
 * cd DonkeyDrift/
 ## How to create a new car instance. 
 *  $donkey createcar ./mycar
