@@ -1,17 +1,63 @@
 # DonkeyDrift
-This is a new project which is based on donkeyCar.
-We have already modified the video capture algorithm and locked tensorflow's version at tensorflow-1.8.0 and cloned the donkeycar version with 2.5.1 branch.
-* You can download the model that we have already trained at local.
-* You can join us and give us some advices. 
-## How to use it
-* clone the repository by:
-* git clone https://github.com/Haobot/DonkeyDrift
-* cd DonkeyDrift/
-## How to create a new car instance. 
-*  $donkey createcar ./mycar
-## How to train my car.
-* $python manage.py train --tub=./data/your_tub_name --model=./models/your_model_name
-## How to dirve my car.
-* $python manager.py drive 
-## Have fun!
+This is a new project from Shanghai, China, which is originally based on DonkeyCar.
+We have already modified several functions and locked tensorflow's version at tensorflow-1.8.0 and cloned the donkeycar version with v2.5.1 branch.
 
+## Instruction and Tools:
+| https://pan.baidu.com/s/1ClZaB69cioZtovuSzdv84g |
+| ----------------------------------------------- |
+| Password：or89                                  |
+
+## Clone this repository:
+```python
+git clone https://github.com/Haobot/DonkeyDrift
+
+cd DonkeyDrift/
+```
+
+## Install DonkeyDrift:
+
+```
+activate donkey
+pip install -e .
+```
+
+## Create new instance:
+
+```python
+donkey createcar ./mycar
+cd  mycar/
+```
+
+## Calibrate car:
+
+```python
+donkey calibrate --channel = 0
+donkey calibrate --channel = 1
+```
+
+## Drive car:
+
+```python
+python manage.py drive 
+```
+
+## Train Model on PC or Server:
+```python
+python manage.py train --tub=./data/your_tub_name --model=./models/your_model_name
+```
+
+## Test Model with Unity simulators:
+
+```
+donkey sim --model=./models/your_model_name --type=linear
+```
+
+P.S. Simulators are just works for Linux and MAC now, Windows version need to fix problems.
+
+## Drive car with model for Auto Drive:
+
+```
+python manage.py drive --model=./models/your_model_name
+```
+
+## Have fun!
